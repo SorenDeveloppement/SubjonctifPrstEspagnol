@@ -25,7 +25,6 @@ async def main():
             file.write("-------------------------------------------------------\r")
         file.close()
 
-    await page.screenshot({'path': 'example.png'})
     await browser.close()
 
 
